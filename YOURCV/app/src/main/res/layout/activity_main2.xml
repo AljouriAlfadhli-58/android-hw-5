@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#7DB1B8">
+
+    <RelativeLayout
+        android:layout_width="329dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="90dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textColor="#6C9CC3"
+            android:textSize="23sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="serif"
+            android:text="Name:"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/Gender"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textColor="#6C9CC3"
+            android:textSize="23sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="serif"
+            android:text="Gender:"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="180dp"
+            android:fontFamily="serif"
+            android:text=" Job:"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="180dp"
+            android:text="TextView"
+            android:textColor="#6C9CC3"
+            android:textSize="23dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="345dp"
+            android:text="TextView"
+            android:textColor="#6C9CC3"
+            android:textSize="23dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="345dp"
+            android:fontFamily="serif"
+            android:text="Birthday:"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="405dp"
+            android:fontFamily="serif"
+            android:text="Email:"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="405dp"
+            android:text="TextView"
+            android:textColor="#6C9CC3"
+            android:textSize="23dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="465dp"
+            android:fontFamily="serif"
+            android:text="Phone Number:"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="465dp"
+            android:text="TextView"
+            android:textColor="#6C9CC3"
+            android:textSize="23dp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="230dp"
+            tools:srcCompat="@drawable/eng_icon" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="25sp"
+        android:fontFamily="serif"
+        android:text="YOUR CV:"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#171414"
+        />
+</RelativeLayout>

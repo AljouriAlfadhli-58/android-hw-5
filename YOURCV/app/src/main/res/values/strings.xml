@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YOUR CV</string>
+    <string-array name="job">
+        <item>Student</item>
+        <item>Engineer</item>
+        <item>Teacher</item>
+        <item>Doctor</item>
+        <item>Other</item>
+    </string-array>
+</resources>
